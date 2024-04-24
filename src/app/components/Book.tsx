@@ -27,10 +27,10 @@ const Book: React.FC = () => {
       <h2 className="text-4xl font-bold text-center">Chapter 1</h2>
       <p className = "mt-5 mb-5 mx-auto text-wrap max-w-prose">
 Before you start constructing your own raspberry pi computer, 
-it&apos;s essential to first determine the parts you’ll need. The first part of the manual guides you 
+it&apos;s essential to first determine the parts you&apos;ll need. The first part of the manual guides you 
 through selecting the appropriate Raspberry Pi model, accessories, and necessary components.
 </p>
-<Image className="w-1/3 mx-auto" src="/img/circuit.jpg" alt="rasppiImage"   width={500} height={300} />
+<Image className="w-1/3 mx-auto" src="/img/circuit.jpg" alt="rasppiImage"  width={500} height={300} />
 
 <h1 className = "mt-5 font-bold text-xl ml-4">Choosing the Right Raspberry Pi Model and Necessary Accessories
 </h1>
@@ -165,7 +165,7 @@ Some retailers offer microSD cards pre-flashed with Raspberry Pi OS. You can pur
 </li>
 </ol>
       </div>,
-      <div>
+      <div key = "page6">
         <h2 className="text-4xl font-bold text-center">Chapter 3: Initial Configuration of Raspberry Pi
         </h2>
         <h1 className = "mt-5 font-bold text-xl ml-4">After installing the Raspberry Pi OS on your microSD card, you&apos;ll need to perform the initial configuration of the Raspberry Pi. This involves setting up the Raspberry Pi for the first time, connecting it to the internet, and updating the software.
@@ -188,7 +188,7 @@ Some retailers offer microSD cards pre-flashed with Raspberry Pi OS. You can pur
         </ul>
         <Image className="w-1/3 mx-auto" src="/img/connections.jpg" alt="rasppiImage" width={500} height={300}/>
 </div>,
-<div>  
+<div key = "page7">  
       <h2 className="text-4xl font-bold text-center">Chapter 3: Initial Configuration of Raspberry Pi - Cont
         </h2>
       <ul className="ml-10 list-disc">
