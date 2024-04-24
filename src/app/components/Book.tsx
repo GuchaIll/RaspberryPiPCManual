@@ -175,8 +175,7 @@ Some retailers offer microSD cards pre-flashed with Raspberry Pi OS. You can pur
           <li><b>Connect Peripherals :</b></li>
           <li>Start by connecting the display to the raspberry pi using the hdmi to micro hdmi cord. 
 </li>
-          <li>Start by connecting the display to the raspberry pi using the hdmi to micro hdmi cord. 
-</li>
+        
           <li>Connect the keyboard to the raspberry pi via the usb port
 </li>
           <li>Connect the mouse to the raspberry pi via another usb port
