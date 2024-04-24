@@ -2,16 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.book{
+  position: relative;
+}
 /* Position the navigation buttons at the bottom */
+
+
 .navigation {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 50%; /* Center the buttons horizontally */
   transform: translateX(-50%); /* Adjust to center the buttons */
   display: flex;
   justify-content: space-between;
-  width: 200px; /* Adjust width as needed */
+  width: 200px;
+ /* Adjust width as needed */
 }
 
 /* Style for navigation buttons */
@@ -22,6 +27,7 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  marin-top: 10px;
 }
 
 /* Style for disabled navigation buttons */
